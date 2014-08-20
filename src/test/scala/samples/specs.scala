@@ -8,7 +8,7 @@ import org.specs.runner.{ JUnitSuiteRunner, JUnit }
 
 /**
  * Sample specification.
- * 
+ *
  * This specification can be executed with: scala -cp <your classpath=""> ${package}.SpecsTest
  * Or using maven: mvn test
  *
@@ -20,14 +20,14 @@ class MySpecTest extends Specification with JUnit /*with ScalaCheck*/ {
 
   "My" should {
     "allow " in {
-      
+
       //0
     }
     "deny " in {
       //0
     }
   }
-  
+
   "A List" should {
     "have a size method returning the number of elements in the list" in {
       List(1, 2, 3).size must_== 3
