@@ -36,6 +36,10 @@ object App {
       println("Hypothesis: " + result.getHypothesis())
       println("List of recognized words and their times:")
       result.getWords().toList.foreach{ word => println(word) }
+
+      println("Best 3 hypotheses:")
+      result.getNbest(3).toList.foreach{ best => println(best) }
+
       result = rec.getResult()
     }
     rec.stopRecognition()
