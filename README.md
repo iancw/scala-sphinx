@@ -15,3 +15,5 @@ resource execute the following command.
 ```
 mvn exec:java
 ```
+
+The tutorial at http://cmusphinx.sourceforge.net/wiki/tutorial looks like an excellent introduction to developers.
